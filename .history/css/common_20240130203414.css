@@ -1,0 +1,46 @@
+.w {
+    width: 1200px;
+    max-width: ;
+    margin: 0 auto;
+}
+body {
+    font-size:16px;
+    font-family: D-DIN-Regular,Arial,Verdana,sans-serif;
+    font-weight:400;
+    color:#fff;
+}
+
+.shortcut {
+    height: 100px;
+    background-color: #f1f1f1;
+}
+.header_left,
+.header_center,
+.header_right {
+    height: 100px;
+    line-height: 100px;
+
+
+}
+.header_left {
+    float: left;
+
+}
+.header_left .logo {
+    width: 206px;
+    height: 26px;
+}
+.header_center {
+    float: left;
+}
+.header_center .nav-item {
+    display: inline-block;
+    margin: 0 12px;
+}
+.header_center ul li {
+    font-size: 15px;
+
+}
+.header_right {
+    float: right;
+}

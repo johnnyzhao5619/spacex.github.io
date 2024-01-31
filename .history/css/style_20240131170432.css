@@ -1,0 +1,59 @@
+body{
+    height:auto;
+    overflow:-Scroll;overflow-x:hidden
+}
+.scroller {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    will-change: transform;
+}
+.scroller .section {
+    position: relative;
+}
+.scroller .section .background {
+    height: calc(100vh);
+    width: auto!important;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.scroller .section .section_inner {
+    position: absolute;
+    z-index: 1;
+    bottom: 198px;
+    left: 50px;
+    width: 560px;
+    height: 180px;
+    text-align: left;
+}
+.scroller .section_inner p {
+    float: left;
+    width: 100%;
+    height: 38px;
+    text-shadow: 0 0 2px #555;
+}
+.scroller .section_inner h1 {
+    float: left;
+    width: 468px;
+    height: auto;
+    margin-right: 52px;
+    font-size: 48px;
+    line-height: 48px;
+}
+.scroller .section_inner a{
+    float: left;
+    display: block;
+    width: 164px;
+    height: 54px;
+    margin: 30px 0 0;
+    padding: 0 15px;
+    border: 2px solid #fff;
+    font: 14px/50px D-DIN-Medium,Arial,Verdana,sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 2px #555;
+}
+.scroller .scrollme{
+    postions
+}

@@ -1,0 +1,58 @@
+.w {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header_left a,
+.header_center a,
+.header_right a {
+    height: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.header_left {
+    position:absolute;
+    left: 50px;
+}
+.header_left .logo_item {
+
+    display: block;
+    width: 210px;
+    height: auto;
+}
+.header_left .logo_item svg {
+    fill: #fff;
+}
+.header_center {
+    
+    position: absolute;
+    left: 285px;
+}
+.header_center ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+.header_right {
+    position: absolute;
+    right: 85px;
+}
+.header_right ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+.shortcut {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100
+    w100;
+    height: 100px;
+    line-height: 100px;
+}
+.shortcut ul li {
+    float: left;
+}

@@ -1,0 +1,35 @@
+
+/* 给父元素添加clearfix属性 */
+.clearfix:after {
+    /* 隐藏盒子，不让别人看到 */
+    visibility: hidden;
+    clear: both;
+    /* 转换为块级元素 */
+    display: block;
+    /* 内容可以为空格也可以为小点 */
+    content: ".";
+    /* 高度为0 */
+    height: 0;
+}
+.clearfix {
+    /* IE6、7 专有 带有这个*的属性，只有IE6和7才能执行 zoomjiushi IE6和7清除浮动的方法 */
+    *zoom: 1;
+} 
+
+.bar {
+    width: 150px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding: 1px;
+}
+.bar_in {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    border-radius: 5px;
+    transition: width 2s;
+}
+.bar:hover .bar_in {
+    width: 100%;
+}
