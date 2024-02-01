@@ -1,0 +1,31 @@
+.register {
+    height: 1230px;
+    width: 100%;
+    background-color: #fff;
+}
+.register .register_area {
+    height: 380px;
+    padding-top: 520px;
+    text-align: center;
+}
+.register .register_area .title {
+    height: 90px;
+    width: auto;
+    margin-bottom: 24px;
+}
+.register_area h1 {
+    margin-bottom:20px;
+    font-size: 24px;
+    font-family: DIN Neuzeit Grotesk,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+    text-transform: uppercase;
+}
+.register_area p {
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #5c5c5c;
+}
