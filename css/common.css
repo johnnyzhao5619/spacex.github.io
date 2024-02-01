@@ -51,6 +51,10 @@
     max-width: 1400px;
     margin: 0 auto;
 }
+.header_nav {
+    overflow: hidden;
+    white-space: nowrap;
+}
 .header_logo a,
 .header_nav a,
 .menu_nav a {
