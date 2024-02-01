@@ -1,0 +1,12 @@
+.main {
+    position:   relative;
+}
+.main .slideshow{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .slideshow a{
+    font-size: 0;
+
+}

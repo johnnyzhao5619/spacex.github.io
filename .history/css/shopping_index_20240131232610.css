@@ -1,0 +1,11 @@
+.main .slideshow{
+    height: auto!important;
+    width: calc(100%vh);
+    object-fit: contain;
+    text-size-adjust: 100%;
+    
+}
+.main .slideshow a{
+    font-size: 0;
+
+}

@@ -1,0 +1,19 @@
+.header {
+    position: relative;
+    display:f
+    left: 0;
+    top: 0;
+    height: 106px;
+    min-height: 80;
+    background-color: pink;
+}
+.header .header_logo {
+    position: absolute;
+    left: 60px;
+    height: 48px;
+    width: 160px;
+    fill:#fff;
+}
+.header .header_logo a{
+    font-size: 0;
+}

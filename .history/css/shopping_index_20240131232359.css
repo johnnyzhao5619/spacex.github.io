@@ -1,0 +1,8 @@
+.main .slideshow{
+    height: calc(100%vh);
+    
+}
+.main .slideshow a{
+    font-size: 0;
+
+}

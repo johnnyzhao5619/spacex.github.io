@@ -1,0 +1,16 @@
+.main {
+    position: relative;
+}
+.main .slideshow{
+
+
+}
+.main .slideshow a {
+    display: block;
+    font-size: 0;
+}
+.main .slideshow a img {
+    height: 1200px;
+    width: width;
+    object-fit: cover;
+}

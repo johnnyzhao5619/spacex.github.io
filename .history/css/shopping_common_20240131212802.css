@@ -1,0 +1,8 @@
+.header .logo {
+    height: 48px;
+    width: 160px;
+    fill:#fff;
+}
+.header .logo a{
+    font-size: 1;
+}

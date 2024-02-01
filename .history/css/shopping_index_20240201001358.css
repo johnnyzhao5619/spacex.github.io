@@ -1,0 +1,8 @@
+.main .slideshow a {
+    font-size: 0;
+}
+.main .slideshow a img {
+    height: 50px;
+    width: auto;
+    object-fit: cover;
+}

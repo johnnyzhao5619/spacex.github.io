@@ -1,0 +1,196 @@
+font-face{
+	font-family:D-DIN-Medium;
+	src:url(../fonts/D-DIN.woff2) format("woff2"),url(../fonts/D-DIN.woff) format("woff"),url(../fonts/D-DIN.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+@font-face{
+	font-family:D-DIN-Light;
+	src:url(../fonts/D-DIN.woff2) format("woff2"),url(../fonts/D-DIN.woff) format("woff"),url(../fonts/D-DIN.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+@font-face{
+	font-family:D-DIN-Bold;
+	src:url(../fonts/D-DIN-Bold.woff2) format("woff2"),url(../fonts/D-DIN-Bold.woff) format("woff"),url(../fonts/D-DIN-Bold.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+@font-face{
+	font-family:D-DIN-Regular;
+	src:url(../fonts/D-DIN.woff2) format("woff2"),url(../fonts/D-DIN.woff) format("woff"),url(../fonts/D-DIN.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+.header_wrapper {
+    position: relative;
+    width: 100%;
+    height: 83px;
+    background-color: #000;
+    opacity: 0.6;
+}
+.header_wrapper .header_logo {
+    position: absolute;
+    top: 28px;
+    left: 61px;
+    width: 158px;
+    margin-right: 38px;
+}
+.header_logo .logo_item {
+    display: block;
+    fill: #fff;
+}
+.header_wrapper .header_logo a{
+    font-size: 0;
+}
+.header_wrapper .header_nav {
+    position: absolute;
+    top: 28px;
+    left: 248px; 
+}
+.header_nav {
+    overflow: hidden;
+    white-space: nowrap;
+}
+.header_wrapper ul li{
+    display: inline-block;
+    padding: 0 21px;
+}
+.header_wrapper ul li a {
+    display: block;
+    font-family: DIN Neuzeit Grotesk,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color:#fff;
+}
+.header_wrapper .header_menu{
+    position: absolute;
+    top: 28px;
+    right: 50px;
+}
+.header_wrapper .header_menu ul li {
+    display: inline-block;
+    padding: 0 16px;
+}
+
+.header_wrapper .header_menu ul li a {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    color:#939393;
+}
+.header_wrapper .header_menu .cart {
+    font-family: DIN Neuzeit Grotesk,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color:#fff;
+}
+
+.main {
+    background-color: #fff;
+    color:#000;
+    text-align: center;
+}
+.main .section_header {
+    height: 180px;
+    line-height: 180px;
+}
+.main .section_header h2{
+    font-family: DIN Neuzeit Grotesk,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.main .list {
+    width: 95.8%;
+    height: auto;
+    min-height: 500px;
+    margin: 0 50px;
+    overflow: hidden;
+}
+.main .list .list_item {
+    float: left;
+    width: 31.2%;
+    height: auto;
+    aspect-ratio: 550/655;
+    background-color: pink;
+    text-align: center;
+    padding-right: 23px;
+}
+.main .list_item>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.main .list_item>span{
+    padding-top: 15;
+    font-family: DIN Neuzeit Grotesk,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.main .list_item>span>a {
+    padding-top: 15;
+    font-family: DIN Neuzeit Grotesk,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+}
+.footer{
+    position:relative;
+    height: 296px;
+    background-color: #000;
+}
+.footer div ul{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.footer div ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer div ul li a{
+    display: block;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    color: #fff;
+}
+.footer .footer_copyright{
+    position: absolute;
+    left: 80px;
+    bottom: 45px;
+}
+.footer div .footer_copyright a{
+    font-family: DIN Neuzeit Grotesk,sans-serif;;
+    font-weight: 700;
+    font-size: 12px;
+    font-style: normal;
+    color: #939393;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 1.65;
+}

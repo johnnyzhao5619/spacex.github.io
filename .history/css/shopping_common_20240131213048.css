@@ -1,0 +1,13 @@
+.header {
+    position:fixed;
+    left:0;
+}
+.header .header_logo {
+    position: relative;
+    height: 48px;
+    width: 160px;
+    fill:#fff;
+}
+.header .header_logo a{
+    font-size: 0;
+}

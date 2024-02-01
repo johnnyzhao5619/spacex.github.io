@@ -1,0 +1,10 @@
+.header_logo
+.header .header_logo {
+    position: ;
+    height: 48px;
+    width: 160px;
+    fill:#fff;
+}
+.header .header_logo a{
+    font-size: 0;
+}

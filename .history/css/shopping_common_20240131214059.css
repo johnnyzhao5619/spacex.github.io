@@ -1,0 +1,50 @@
+font-face{
+	font-family:D-DIN-Medium;
+	src:url(../fonts/D-DIN.woff2) format("woff2"),url(../fonts/D-DIN.woff) format("woff"),url(../fonts/D-DIN.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+@font-face{
+	font-family:D-DIN-Light;
+	src:url(../fonts/D-DIN.woff2) format("woff2"),url(../fonts/D-DIN.woff) format("woff"),url(../fonts/D-DIN.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+@font-face{
+	font-family:D-DIN-Bold;
+	src:url(../fonts/D-DIN-Bold.woff2) format("woff2"),url(../fonts/D-DIN-Bold.woff) format("woff"),url(../fonts/D-DIN-Bold.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+@font-face{
+	font-family:D-DIN-Regular;
+	src:url(../fonts/D-DIN.woff2) format("woff2"),url(../fonts/D-DIN.woff) format("woff"),url(../fonts/D-DIN.otf) format("opentype");
+	font-style:normal;
+	font-weight:400;
+	font-display:block
+}
+.header_logo
+[]
+.header_wrapper {
+    position: relative;
+    display: flex;
+    left: 0;
+    top: 0;
+    height: 106px;
+    min-height: 80;
+    background-color: pink;
+}
+.header_wrapper .header_logo {
+    position: absolute;
+    left: 60px;
+    height: 48px;
+    width: 160px;
+    margin-right: 38px;
+    fill:#fff;
+}
+.header_wrapper .header_logo a{
+    font-size: 0;
+}

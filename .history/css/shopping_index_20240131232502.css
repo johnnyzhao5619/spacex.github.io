@@ -1,0 +1,10 @@
+.main .slideshow{
+    height: auto!important;;
+    width: calc(100%vh);
+    auto!important;
+    
+}
+.main .slideshow a{
+    font-size: 0;
+
+}
